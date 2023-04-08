@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+header {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: blue;
+}
+
+.header-nav__logo {
+    margin-left: 25px;
+}
+
+.header-nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.header-nav__list-item {
+    padding: 0 15px;
+}
+
+/* ここからbody */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.firstview {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.firstview__img {
+   max-width: 50%
+}
+
+.catchcopy {
+    font-size: 72px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+}
+
+.bg__block {
+    margin-top: -100px;
+    top: 90%;
+    width: 70%;
+    height: 200px;
+    background: blue;
+}
